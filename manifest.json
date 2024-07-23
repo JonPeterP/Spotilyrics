@@ -1,0 +1,17 @@
+{
+    "name": "Spotilyrics",
+    "description": "Extension to get lyrics of currently playing song",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": "spotify-icon-16.png"
+    },
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }
+}
